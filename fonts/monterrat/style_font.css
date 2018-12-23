@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold_0.ttf') format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UTMCSansIntelBold';
+    src: url('UTMNeoSansIntelBold.ttf') format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+}
+

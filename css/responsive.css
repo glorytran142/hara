@@ -1,0 +1,142 @@
+@media screen and (max-width:1200px){
+
+}
+@media screen and (max-width:1024px){
+
+}
+@media screen and (max-width: 980px){
+	.navbar-toggle{
+		display: block;
+	}
+	.nav-wrap{
+		display: none;
+	}
+	#header .nav-wrap .nav-ul{
+		color: #fff;
+	}
+	.info-contact{
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	.item-contact{
+		margin: auto;
+	}
+}
+@media screen and (max-width:768px){
+.hd-main-bot{
+	border-top: 0;
+}
+.guide-nav{
+	width: 33.33%;
+}
+.guide-content{
+	width: 66.66%;
+}
+}
+@media screen and (max-width: 650px){
+	.right-customer-left{
+		width: 100%;
+	}
+	.right-customer-right{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.guide-ct .img{
+		width: 100%;
+	}
+	.guide-ct .item-ct{
+		width: 100%;
+		padding-top: 30px;
+	}
+	.list-guide-nav li a{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 600px){
+	.item-contact{
+		padding: 10px;
+	}
+	.services .list-services li:nth-child(2),.services .list-services li:nth-child(1),.services .list-services li:nth-child(3),.services .list-services li:nth-child(4),.services .list-services li:nth-child(5){
+		border: 0;
+	}
+	.services .list-services li:after,.services .list-services li:before{
+		display: none;
+	}
+	.services .item-services{
+		padding: 10px;
+	}
+	.services .list-services li{
+		width: 50%;
+	}
+	.list-new li{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 550px){
+	.number-count{
+		height: unset;
+	}
+	.list-count li{
+		width: 50%;
+		padding: 10px 5px;
+	}
+	.number-count{
+		padding: 20px;
+	}
+}
+@media screen and (max-width: 500px){
+	.list-guide-nav:before{
+		display: none;
+	}
+	.guide-nav{
+		width: 100%;
+		text-align: center;
+	}
+	.guide-content{
+		width: 100%;
+	}
+	.list-guide-nav{
+		padding: 0 20%;
+	}
+	.item-ct .mn-btn{
+		margin: auto;
+	}
+	.hd-logo{
+		width: 60px;
+		padding: 0;
+		margin: 5px 0;
+	}
+.hd-main{
+	width: calc(100% - 60px);
+}
+.main-top-child.account{
+	margin: 5px;
+	padding: 0 5px;
+}
+	.hd-main-top{
+		padding: 0;
+	}
+	.main-top-child{
+		margin: 5px;
+		padding: 0 5px;
+	}
+	.find-product{
+		padding: 70px 0;
+	}
+}
+@media screen and (max-width: 450px){
+	.btn-setting{
+		display: none;
+	}
+	.services .list-services li{
+		width: 100%;
+	}
+	.list-right li{
+		width: 100%;
+	}
+	.right-customer-content{
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
