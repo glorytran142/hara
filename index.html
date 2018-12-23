@@ -30,7 +30,7 @@
               <div class="img"><i class="fa fa-home" aria-hidden="true"></i></div>
               <div class="content">
                 <p>203/2/27 Truc St, Ward 13,<br>
-Binh Thanh Dist, HCMC</p>
+                Binh Thanh Dist, HCMC</p>
               </div>
             </div>
             <div class="item-contact-top">
@@ -88,16 +88,16 @@ Binh Thanh Dist, HCMC</p>
   <main id="main-wrap">
     <div class="group-banner">
       <div class="container">
-      <div class="slider-banner">
-        <div class="banner-home">
-          <div class="banner">
-            <img src="images/banner1.png">
-          </div>
-          <div class="banner">
-            <img src="images/banner1.png">
+        <div class="slider-banner">
+          <div class="banner-home">
+            <div class="banner">
+              <img src="images/banner1.png">
+            </div>
+            <div class="banner">
+              <img src="images/banner1.png">
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
     <div class="sec services-cat">
@@ -162,42 +162,75 @@ Binh Thanh Dist, HCMC</p>
     <div class="sec hour-open">
       <div class="container">
         <div class="hour-group clear">
-        <div class="hour-open-left">
+          <div class="hour-open-left">
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/UmN0pe1qGQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="hour-open-right">
-          <div class="content-hour clear">
+          </div>
+          <div class="hour-open-right">
+            <div class="content-hour clear">
               <h3 class="title">Giờ Mở Cửa</h3>
               <div class="info">
                 <ul class="list-hour">
                   <li>
                     <p><span class="name">Monday</span><span class="value">7:30am - 6:00pm</span></p>
                   </li>
-                   <li>
+                  <li>
                     <p><span class="name">Tuesday</span><span class="value">7:30am - 6:00pm</span></p>
                   </li>
-                   <li>
+                  <li>
                     <p><span class="name">Wednesday</span><span class="value">7:30am - 6:00pm</span></p>
                   </li>
-                   <li>
+                  <li>
                     <p><span class="name">Thursday</span><span class="value">7:30am - 6:00pm</span></p>
                   </li>
-                   <li>
+                  <li>
                     <p><span class="name">Friday</span><span class="value">7:30am - 6:00pm</span></p>
                   </li>
-                   <li>
+                  <li>
                     <p><span class="name">Saturday</span><span class="value">9:00am - 12:00pm</span></p>
                   </li>
-                   <li>
+                  <li>
                     <p><span class="name">Sunday</span><span class="value">Đóng cửa</span></p>
                   </li>
-                   <li>
+                  <li>
                     <p><span class="name">Ngoài giờ</span><span class="value">Liên hệ (+848) 3553 4523</span></p>
                   </li>
                 </ul>
               </div>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="sec blog-index">
+      <div class="container">
+        <h1 class="sec-title">SẢN PHẨM DỊCH VỤ<span>Click vào tìm hiểu thêm</span></h1>
+        <div class="slider-blog-index">
+          <ul class="list-blog clear">
+            <li>
+              <div class="blog-quick-item">
+                <a href=""><img src="images/blog-quick.png"></a>
+              </div>
+            </li>
+            <li>
+              <div class="blog-quick-item">
+                <a href=""><img src="images/blog-quick.png"></a>
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-quick-item">
+                <a href=""><img src="images/blog-quick.png"></a>
+              </div>
+            </li>
+          </ul>
+          <div class="status-bot">
+            <div class="status-bot-left">
+                <p>WE ARE HERE FOR YOU AND YOUR BELOVED PET     <span>We are dedicated to providing excellent care, Call to learn more.</span></p>
+            </div>
+            <div class="status-bot-right">
+              <a href="#">Reach more...</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -314,6 +347,25 @@ Binh Thanh Dist, HCMC</p>
 
 
     });
+     $('.list-blog').slick({
+      dots: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+    ]
+  });
 
    });
  </script>
